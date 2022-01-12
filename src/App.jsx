@@ -13,7 +13,7 @@ const App = () => {
 
   //genarate random number
   const genarateRandom = () => {
-    setRandNum(Math.floor(Math.random() * (max - min)) + 50);
+    setRandNum(Math.floor(Math.random() * (max - min)) + min);
   };
 
   return (
