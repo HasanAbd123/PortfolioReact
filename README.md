@@ -1,5 +1,7 @@
 ### Hi there, I'm Ravindu Sathsara
 
+### try this app : https://random-number-generator-v1.herokuapp.com/
+
 ## I'm a Student and Developer!!
 
 - 🌱 I’m currently learning everything 🤣
