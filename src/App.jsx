@@ -11,9 +11,12 @@ const App = () => {
   const [max, setMax] = useState(10);
   const [min, setMin] = useState(0);
 
+  const minInt = parseInt(min);
+
+  // console.log(typeof minInt);
   //genarate random number
   const genarateRandom = () => {
-    setRandNum(Math.floor(Math.random() * (max - min)) + min);
+    setRandNum(Math.floor(Math.random() * (max - minInt)) + minInt);
   };
 
   return (
